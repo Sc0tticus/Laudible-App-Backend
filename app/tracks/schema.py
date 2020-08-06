@@ -63,6 +63,7 @@ class UpdateTrack(graphene.Mutation):
 class DeleteTrack(graphene.Mutation):
   track_id = graphene.Int()
 
+
   class Arguments: 
     track_id = graphene.Int(required=True)
   
