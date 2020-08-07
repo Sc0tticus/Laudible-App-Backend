@@ -2,8 +2,8 @@ from django.db import models
 
 from django.contrib.auth import get_user_model
 
-
-# Create your models here.
+######
+# Create your models here.######
 class Track(models.Model):
   #id field will server as primary key for the track
   title = models.CharField(max_length=50)
